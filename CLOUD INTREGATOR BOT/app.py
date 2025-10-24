@@ -45,7 +45,7 @@ def set_bg_from_local(image_file):
     )
 
 # ==== Apply the background ====
-set_bg_from_local("C:/Users/Anupam/OneDrive/Desktop/CLOUD INTREGATOR BOT/images/background_AI_2.jpg")
+set_bg_from_local("https://github.com/Anupam77777/AZURE-ASSISTANT/blob/main/CLOUD%20INTREGATOR%20BOT/images/background_AI_2.jpg")
 
 # ==== Streamlit Page Config ====
 st.set_page_config(
@@ -121,3 +121,4 @@ with col2:
 with col3:
     if st.button("🧠 Perplexity AI"):
         st.components.v1.html("<script>window.open('https://www.perplexity.ai/','_blank')</script>", height=0)
+
